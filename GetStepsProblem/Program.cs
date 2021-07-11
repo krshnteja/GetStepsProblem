@@ -8,7 +8,6 @@ namespace GetStepsProblem
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             Console.WriteLine("Starting the thing...");
@@ -19,7 +18,6 @@ namespace GetStepsProblem
 
         private static void writeToCSV(Dictionary<int, int> userData)
         {
-
             try
             {
                 String csv = "user,total_steps," + Environment.NewLine + String.Join(
